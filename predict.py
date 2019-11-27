@@ -10,7 +10,7 @@ from torch import nn, optim
 from PIL import Image
 from torchvision import datasets, transforms, models
 
-#run by: python predict.py "flowers/test/24/image_06815.jpg" --gpu True
+## run the file by: python predict.py "flowers/test/24/image_06915.jpg" "checkpoint.pth" --gpu True
 
 
 #get input arguments
